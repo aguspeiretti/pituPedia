@@ -3,4 +3,6 @@
     background-size: cover;
     width: 100vw;
     height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
 }
