@@ -1,0 +1,6 @@
+.numbers-container{
+    background-image: url("../../assets/fondos/cielo.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: calc(100vh - 60px);
+}
