@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import Animals from './pages/animals/Animals';
@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route path='Animales' element={<Animals />} />
         <Route path='Colores' element={<Colors />} />
-        <Route path='Comidas' element={<Food />} />
+        <Route path='Alimentos' element={<Food />} />
         <Route path='Numeros' element={<Numbers />} />
         <Route path='Vehiculos' element={<Vehicles />} />
       </Routes>      

@@ -10,7 +10,7 @@ const NavBar = () => {
         </div>
         <ul className='directions-container'>
              <Link to="/Animales"><li>Animales</li></Link> 
-             <Link to="/Comidas"><li>Comida</li></Link> 
+             <Link to="/Alimentos"><li>Alimentos</li></Link> 
              <Link to="/Vehiculos"><li>Vehiculos</li></Link> 
              <Link to="/Numeros"><li>Numeros</li></Link> 
              <Link to="/Colores"><li>Colores</li></Link> 
