@@ -3,6 +3,7 @@ import "./grilla.css";
 
 const Grilla = ({ img, info }) => {
   const [audio, setAudio] = useState();
+  const [activo, setActivo] = useState(true);
 
   let sound = new Audio(audio);
 
@@ -14,9 +15,19 @@ const Grilla = ({ img, info }) => {
     setAudio(sonido[0].sonido);
   };
 
+  setTimeout(function () {
+    setActivo(false);
+  }, 3000);
+
   return (
     <div className="grilla-container">
-      <div className="img-bartolito">
+      <div
+        className={
+          activo
+            ? "animate__animated animate__bounceInLeft img-bartolito"
+            : "animate__animated animate__bounceOutLeft img-bartolito-hide"
+        }
+      >
         <img src={info} alt="" />
       </div>
       <div className="img-container">

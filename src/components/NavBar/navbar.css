@@ -9,6 +9,10 @@
 .logo-container {
   height: 55px;
 }
+.logo-container i {
+  color: white;
+  font-size: 25px;
+}
 .logo-container img {
   height: 55px;
   margin-left: 15px;
@@ -26,9 +30,71 @@
   text-decoration: none;
   color: white;
 }
-
+.navbar-responsive {
+  display: none;
+}
 @media (max-width: 765px) {
-  .directions-container {
+  .navbar {
     display: none;
+  }
+  .navbar-responsive {
+    display: block;
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+  }
+  .directions-container-responsive {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: -1000px;
+  }
+  .directions-container-responsive,
+  .directions-container-responsive-open a li {
+    color: white;
+    font-size: 45px;
+    font-family: sans-serif;
+    width: 80%;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .directions-container-responsive,
+  .directions-container-responsive-open a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .directions-container-responsive-open {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: calc(0px + 59px);
   }
 }

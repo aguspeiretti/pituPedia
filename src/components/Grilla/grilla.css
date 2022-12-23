@@ -44,6 +44,9 @@
   background-color: transparent;
   cursor: pointer;
 }
+.img-bartolito-hide {
+  display: none;
+}
 
 @media (max-width: 765px) {
   .grilla-container {

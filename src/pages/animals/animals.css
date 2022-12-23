@@ -17,3 +17,9 @@
   display: flex;
   padding: 0px 30px;
 }
+@media (max-width: 765px) {
+  .blur {
+    margin: 0;
+    padding: 0;
+  }
+}
