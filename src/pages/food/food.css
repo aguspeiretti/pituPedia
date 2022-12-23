@@ -1,15 +1,18 @@
-
-.food-container{
-    background-image: url("../../assets/fondos/cocina.jpg");
-    background-size: cover;
-    width: 100vw;
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
+.food-container {
+  background-image: url("../../assets/fondos/cocina.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
 }
-.bartolito{
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.blur {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  backdrop-filter: blur(3px);
+  display: flex;
 }

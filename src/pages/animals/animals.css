@@ -1,16 +1,19 @@
-.animals-container{
-    background-image: url("../../assets/fondos/granja.jpg");
-    backdrop-filter: blur(6px);
-    background-size: cover;
-    width: 100vw;
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
+.animals-container {
+  background-image: url("../../assets/fondos/granja.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
 }
-.bartolito{
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+
+.blur {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  backdrop-filter: blur(3px);
+  display: flex;
+  padding: 0px 30px;
 }
