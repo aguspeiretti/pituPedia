@@ -16,7 +16,7 @@ const NavBar = () => {
           <img src={logo} alt="" />
         </div>
         <ul className="directions-container">
-          <Link to="/Animales">
+          <Link to="/">
             <li>Animales</li>
           </Link>
           <Link to="/Alimentos">
@@ -45,7 +45,7 @@ const NavBar = () => {
               : "directions-container-responsive-open"
           }
         >
-          <Link to="/Animales">
+          <Link to="/">
             <li onClick={handleMenu}>Animales</li>
           </Link>
           <Link to="/Alimentos">
