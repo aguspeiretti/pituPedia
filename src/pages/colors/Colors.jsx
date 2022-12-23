@@ -15,6 +15,7 @@ import samarillo from "../../assets/sonidos/colores/verde.mp3";
 import snaranja from "../../assets/sonidos/colores/naranja.mp3";
 
 import "animate.css";
+import Grilla2 from "../../components/Grilla2/Grilla2";
 
 const img = [
   { img: rojo, id: "rojo", sonido: srojo },
@@ -29,7 +30,7 @@ const Colors = () => {
   return (
     <div className="colors-container">
       <div className="blur">
-        <Grilla img={img} info={toy} />
+        <Grilla2 img={img} info={toy} />
       </div>
     </div>
   );

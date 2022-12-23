@@ -31,6 +31,9 @@ const NavBar = () => {
           <Link to="/Colores">
             <li>Colores</li>
           </Link>
+          <Link to="/Cars">
+            <li>Cars</li>
+          </Link>
         </ul>
       </div>
       <div className="navbar-responsive">
@@ -59,6 +62,9 @@ const NavBar = () => {
           </Link>
           <Link to="/Colores">
             <li onClick={handleMenu}>Colores</li>
+          </Link>
+          <Link to="/Cars">
+            <li>Cars</li>
           </Link>
         </ul>
       </div>

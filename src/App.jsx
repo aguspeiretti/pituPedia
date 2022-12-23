@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Animals from "./pages/animals/Animals";
+import Cars from "./pages/Cars/Cars";
 import Colors from "./pages/colors/Colors";
 import Food from "./pages/food/Food";
 import Numbers from "./pages/numbers/Numbers";
@@ -18,6 +19,7 @@ function App() {
         <Route path="Alimentos" element={<Food />} />
         <Route path="Numeros" element={<Numbers />} />
         <Route path="Vehiculos" element={<Vehicles />} />
+        <Route path="Cars" element={<Cars />} />
       </Routes>
     </>
   );
