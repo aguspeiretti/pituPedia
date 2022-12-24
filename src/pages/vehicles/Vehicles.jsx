@@ -7,7 +7,7 @@ import colectivo from "../../assets/sonidos/transporte/colectivo.png";
 import moto from "../../assets/sonidos/transporte/moto.png";
 import tractor from "../../assets/sonidos/transporte/tractor.png";
 import tren from "../../assets/sonidos/transporte/tren.png";
-import Grilla from "../../components/Grilla/Grilla";
+import Grilla from "../../components/Grilla2/Grilla2";
 import bartolito from "../../assets/sonidos/transporte/transporte.png";
 
 import sauto from "../../assets/sonidos/transporte/auto.mp3";
@@ -18,6 +18,7 @@ import stractor from "../../assets/sonidos/transporte/tractor.mp3";
 import stren from "../../assets/sonidos/transporte/tren.mp3";
 import scoletivo from "../../assets/sonidos/transporte/colectivo.mp3";
 import "animate.css";
+import Grilla2 from "../../components/Grilla2/Grilla2";
 
 const toy = [bartolito];
 
@@ -35,7 +36,7 @@ const Vehicles = () => {
   return (
     <div className="vehicles-container">
       <div className="blur">
-        <Grilla img={img} info={toy} />
+        <Grilla2 img={img} info={toy} />
       </div>
     </div>
   );

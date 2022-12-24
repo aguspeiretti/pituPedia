@@ -10,7 +10,7 @@ import siete from "../../assets/sonidos/numeros/siete.png";
 import ocho from "../../assets/sonidos/numeros/ocho.png";
 import nueve from "../../assets/sonidos/numeros/nueve.png";
 import diez from "../../assets/sonidos/numeros/diez.png";
-import Grilla from "../../components/Grilla/Grilla";
+import Grilla2 from "../../components/Grilla2/Grilla2";
 import bartolito from "../../assets/sonidos/numeros/numeros.png";
 import suno from "../../assets/sonidos/numeros/1.mp3";
 import sdos from "../../assets/sonidos/numeros/2.mp3";
@@ -42,7 +42,7 @@ const Numbers = () => {
   return (
     <div className="numbers-container">
       <div className="blur">
-        <Grilla img={img} info={toy} />
+        <Grilla2 img={img} info={toy} />
       </div>
     </div>
   );

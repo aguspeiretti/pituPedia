@@ -5,6 +5,7 @@ import Animals from "./pages/animals/Animals";
 import Cars from "./pages/Cars/Cars";
 import Colors from "./pages/colors/Colors";
 import Food from "./pages/food/Food";
+import Home from "./pages/home/Home";
 import Numbers from "./pages/numbers/Numbers";
 import Vehicles from "./pages/vehicles/Vehicles";
 
@@ -14,7 +15,8 @@ function App() {
       <NavBar />
 
       <Routes>
-        <Route path="/" element={<Animals />} />
+        <Route path="/" element={<Home />} />
+        <Route path="Animales" element={<Animals />} />
         <Route path="Colores" element={<Colors />} />
         <Route path="Alimentos" element={<Food />} />
         <Route path="Numeros" element={<Numbers />} />

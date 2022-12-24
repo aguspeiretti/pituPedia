@@ -20,6 +20,7 @@ import suva from "../../assets/sonidos/comidas/uva.mp3";
 import stomate from "../../assets/sonidos/comidas/tomate.mp3";
 import szanahoria from "../../assets/sonidos/comidas/zanahoria.mp3";
 import squeso from "../../assets/sonidos/comidas/queso.mp3";
+import Grilla2 from "../../components/Grilla2/Grilla2";
 
 const img = [
   { img: banana, id: "banana", sonido: sbanana },
@@ -39,7 +40,7 @@ const Food = () => {
   return (
     <div className="food-container">
       <div className="blur">
-        <Grilla img={img} info={toy} />
+        <Grilla2 img={img} info={toy} />
       </div>
     </div>
   );
