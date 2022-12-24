@@ -40,10 +40,13 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-responsive">
-        <div className="logo-container">
-          <img src={logo} alt="" />
-          <i onClick={handleMenu} class="fa-solid fa-bars"></i>
-        </div>
+        <Link to={"/"}>
+          {" "}
+          <div className="logo-container">
+            <img src={logo} alt="" />
+            <i onClick={handleMenu} class="fa-solid fa-bars"></i>
+          </div>
+        </Link>
         <ul
           className={
             handlebar
