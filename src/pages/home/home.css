@@ -89,7 +89,10 @@
   .aprendemos-img-container img {
     height: 80%;
   }
-
+  .enlaces {
+    margin: 20px 0px;
+    height: 80%;
+  }
   .enlaces ul {
     flex-wrap: wrap;
     justify-content: center;
