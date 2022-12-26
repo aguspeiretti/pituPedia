@@ -13,7 +13,7 @@ import sVaca from "../../assets/sonidos/animales/vaca.mp3";
 import sOveja from "../../assets/sonidos/animales/oveja.mp3";
 import sChancho from "../../assets/sonidos/animales/chancho.mp3";
 import sElefante from "../../assets/sonidos/animales/elefante.mp3";
-import sGallo from "../../assets/sonidos/animales/Gallo.mp3";
+import sGallo from "../../assets/sonidos/animales/gallo.mp3";
 import sLobo from "../../assets/sonidos/animales/lobo.mp3";
 import sPato from "../../assets/sonidos/animales/pato.mp3";
 import "animate.css";
